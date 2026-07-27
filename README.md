@@ -1,3 +1,5 @@
+<a id="top"></a>
+
 # 🕌 Indian Muslim Founders — Open Source Community
 
 > *"And cooperate in righteousness and piety, but do not cooperate in sin and aggression."*
@@ -5,6 +7,25 @@
 
 > *"The best of people are those who are most beneficial to people."*
 > — Prophet Muhammad ﷺ (Al-Mu'jam Al-Awsat)
+
+---
+
+## 📑 Table of Contents
+
+1. [Bismillah — The Vision](#1-bismillah--the-vision)
+2. [Why This Exists — The Need](#2-why-this-exists--the-need)
+3. [Our Goals](#3-our-goals)
+4. [The Open Source Ethos — Shura in Code](#4-the-open-source-ethos--shura-in-code)
+5. [How You Can Participate — Join the Jama'ah](#5-how-you-can-participate--join-the-jamaah)
+6. [Contributing Guidelines](#6-contributing-guidelines)
+7. [Code of Conduct — Adab al-Majlis](#7-code-of-conduct--adab-al-majlis)
+8. [Roadmap (Living Document)](#8-roadmap-living-document)
+9. [Governance](#9-governance)
+10. [A Final Word — Niyyah](#10-a-final-word--niyyah)
+11. [License](#11-license)
+12. [Contact & Links](#12-contact--links)
+
+[↑ Back to top](#top)
 
 ---
 
@@ -201,3 +222,5 @@ So build with us. Contribute. Share. Make dua.
 *Made with 🤍 and dua by the Indian Muslim Founders community.*
 
 *Wa sallallahu 'ala Sayyidina Muhammad wa 'ala alihi wa sahbihi wa sallam.*
+
+[↑ Back to top](#top)
