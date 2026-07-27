@@ -1,0 +1,11 @@
+blank_issues_enabled: false
+contact_links:
+  - name: 💬 Community Discussions
+    url: https://github.com/YOUR-ORG/YOUR-REPO/discussions
+    about: "Questions, AMAs, mentorship requests, and open conversation — join the shura here."
+  - name: 🤝 Discord / Telegram
+    url: https://example.com
+    about: "Real-time community chat. (link to be added)"
+  - name: 📧 Email the Maintainers
+    url: mailto:hello@example.com
+    about: "For private or sensitive matters — handled with amanah (confidentiality)."
