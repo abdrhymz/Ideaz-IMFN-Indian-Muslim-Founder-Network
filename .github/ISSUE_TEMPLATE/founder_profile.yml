@@ -1,0 +1,91 @@
+name: "👤 Add My Founder Profile"
+description: "Add yourself to the open Indian Muslim Founders directory."
+title: "[Profile] "
+labels: ["profile", "new-founder"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        **Bismillah.** Welcome to the directory! 🕌
+
+        This form creates a public profile in our open-source community.
+        Please share only what you're comfortable publishing — your privacy is an **amanah** (trust) we take seriously.
+  - type: input
+    id: name
+    attributes:
+      label: "Full Name"
+      placeholder: "e.g. Ayesha Khan"
+    validations:
+      required: true
+  - type: input
+    id: startup
+    attributes:
+      label: "Startup / Project Name"
+      placeholder: "e.g. Noor Foods"
+    validations:
+      required: true
+  - type: dropdown
+    id: stage
+    attributes:
+      label: "Stage"
+      options:
+        - "Idea / Exploring"
+        - "Building / Pre-launch"
+        - "Launched / Pre-revenue"
+        - "Revenue / Bootstrapped"
+        - "Funded (Seed+)"
+        - "Exited"
+        - "Closed — learning and moving on"
+    validations:
+      required: true
+  - type: input
+    id: sector
+    attributes:
+      label: "Sector / Industry"
+      placeholder: "e.g. Halal fintech, EdTech, D2C, HealthTech"
+    validations:
+      required: true
+  - type: input
+    id: city
+    attributes:
+      label: "City, India"
+      placeholder: "e.g. Hyderabad"
+    validations:
+      required: true
+  - type: input
+    id: links
+    attributes:
+      label: "Website / LinkedIn / Twitter (optional)"
+      placeholder: "Paste one or more links, comma-separated"
+    validations:
+      required: false
+  - type: textarea
+    id: bio
+    attributes:
+      label: "Short Bio"
+      description: "2–3 sentences. What are you building, and what's your journey so far?"
+      placeholder: "I'm building a halal-certified D2C food brand out of Hyderabad..."
+    validations:
+      required: true
+  - type: checkboxes
+    id: looking-for
+    attributes:
+      label: "I'm open to (select all that apply)"
+      options:
+        - label: "🤝 Co-founder connections"
+        - label: "🧭 Mentorship (giving or receiving)"
+        - label: "💰 Funding conversations"
+        - label: "🧑‍💼 Hiring / looking for talent"
+        - label: "🤲 Just connecting & making dua"
+    validations:
+      required: false
+  - type: checkboxes
+    id: consent
+    attributes:
+      label: "Consent & Adab"
+      description: "Required before we can publish your profile."
+      options:
+        - label: "I confirm this information is accurate and I consent to it being published in this open-source directory under CC BY-SA 4.0."
+          required: true
+        - label: "I agree to the community Code of Conduct (Adab al-Majlis)."
+          required: true
