@@ -1,0 +1,53 @@
+name: "📖 Share a Story / Playbook / Translation"
+description: "Contribute knowledge — ilm that benefits others is sadaqah jariyah."
+title: "[Content] "
+labels: ["content"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        > *"When a person dies, their deeds come to an end except for three: ongoing charity, knowledge that benefits others…"* (Sahih Muslim)
+
+        Share your founder story, a playbook, or a translation — freely given, freely used.
+  - type: dropdown
+    id: type
+    attributes:
+      label: "Content type"
+      options:
+        - "Founder story / interview"
+        - "Playbook / guide (fundraising, compliance, GTM, etc.)"
+        - "Translation of existing content"
+        - "Resource list / curation"
+        - "Other"
+    validations:
+      required: true
+  - type: input
+    id: title
+    attributes:
+      label: "Working title"
+      placeholder: "e.g. How I raised our first round as a first-generation founder from Aligarh"
+    validations:
+      required: true
+  - type: textarea
+    id: summary
+    attributes:
+      label: "Summary or draft"
+      description: "Paste your draft, outline, or a detailed summary. Markdown welcome."
+    validations:
+      required: true
+  - type: input
+    id: language
+    attributes:
+      label: "Language(s)"
+      placeholder: "e.g. English, Urdu, Hindi"
+    validations:
+      required: false
+  - type: checkboxes
+    id: rights
+    attributes:
+      label: "Rights & honesty"
+      options:
+        - label: "This is my original work (or I have permission to share it), and I release it under CC BY-SA 4.0."
+          required: true
+        - label: "I'm not sharing anyone else's private information without consent."
+          required: true
