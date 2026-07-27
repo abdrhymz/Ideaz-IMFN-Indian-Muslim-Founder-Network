@@ -1,0 +1,61 @@
+name: "💡 Propose an Idea / Feature"
+description: "Bring your idea to the shura — let's build it together."
+title: "[Idea] "
+labels: ["idea", "shura"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        > *"…and whose affair is [determined by] consultation among themselves…"* (42:38)
+
+        Every great feature started as someone's idea. Share yours — the community will discuss it openly.
+  - type: input
+    id: title
+    attributes:
+      label: "Idea in one line"
+      placeholder: "e.g. A Ramadan-season founder challenge calendar"
+    validations:
+      required: true
+  - type: textarea
+    id: problem
+    attributes:
+      label: "What problem or need does this address?"
+      description: "Who struggles with this today, and how?"
+    validations:
+      required: true
+  - type: textarea
+    id: solution
+    attributes:
+      label: "Your proposed solution"
+      description: "How would it work? Sketches, flows, or rough mockups welcome."
+    validations:
+      required: true
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: "Alternatives you considered (optional)"
+    validations:
+      required: false
+  - type: dropdown
+    id: area
+    attributes:
+      label: "Which area does this touch?"
+      options:
+        - "Founder Directory"
+        - "Docs / Playbooks"
+        - "Website / Portal"
+        - "Data & Reports"
+        - "Community Tooling"
+        - "Other"
+    validations:
+      required: true
+  - type: checkboxes
+    id: help
+    attributes:
+      label: "Can you help build this?"
+      options:
+        - label: "Yes — I can contribute code / design / writing"
+        - label: "I can help test and give feedback"
+        - label: "Just proposing — hoping someone picks it up"
+    validations:
+      required: false
