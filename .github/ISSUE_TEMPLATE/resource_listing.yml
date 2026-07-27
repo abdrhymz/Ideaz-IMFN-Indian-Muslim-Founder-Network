@@ -1,0 +1,59 @@
+name: "🏦 List a Fund / Accelerator / Grant / Program"
+description: "Add a verified resource to the community directory."
+title: "[Resource] "
+labels: ["resource"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Help the community access opportunity — but please list only what you've **verified or used yourself**. Honesty here is an amanah.
+  - type: input
+    id: name
+    attributes:
+      label: "Resource name"
+      placeholder: "e.g. Barakah Angels Network"
+    validations:
+      required: true
+  - type: dropdown
+    id: type
+    attributes:
+      label: "Type"
+      options:
+        - "VC / Angel fund"
+        - "Accelerator / Incubator"
+        - "Grant program"
+        - "Community / network"
+        - "Service (legal, accounting, etc.)"
+        - "Other"
+    validations:
+      required: true
+  - type: input
+    id: url
+    attributes:
+      label: "Website URL"
+      placeholder: "https://..."
+    validations:
+      required: true
+  - type: textarea
+    id: why
+    attributes:
+      label: "Why is this relevant to Indian Muslim founders?"
+      description: "What makes it accessible, friendly, or particularly useful?"
+    validations:
+      required: true
+  - type: input
+    id: relationship
+    attributes:
+      label: "Your relationship to this resource (disclosure)"
+      placeholder: "e.g. Funded by them / work there / no relationship"
+    validations:
+      required: true
+  - type: checkboxes
+    id: honest
+    attributes:
+      label: "Integrity check"
+      options:
+        - label: "This is a genuine recommendation, not a paid promotion."
+          required: true
+        - label: "I'm not affiliated in a way I've failed to disclose above."
+          required: true
